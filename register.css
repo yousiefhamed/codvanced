@@ -1,0 +1,250 @@
+body {
+    padding: 0;
+    /*margin: 0;*/
+    font-family: sans-serif;
+    background-image: linear-gradient(to right bottom, rgb(35, 35, 190), rgb(142, 6, 142));
+    height: 100vh;
+    background-repeat: no-repeat;
+
+    /*background-image tag here*/
+}
+
+.content {
+    width: 600px;
+    height: 540px;
+    border: 4px solid #ffffff;
+    background: none;
+    background-size: 600px 500px;
+    opacity: 1;
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 550px;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+
+}
+
+label {
+    font-size: 25px;
+    position: absolute;
+    color: white;
+}
+
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 50px;
+
+
+}
+
+
+input[type="text"],
+[type="password"],
+[type="confirm password"],
+[type="email"] {
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 18px;
+    border-bottom: 2px solid gray;
+    border-radius: 7px;
+    background: ivory;
+    padding: 5px;
+    color: #000000;
+    font-size: medium;
+    font-weight: 600;
+
+}
+
+input[type="text"][ id=t1] {
+    top: 95px;
+    left: 170px;
+
+}
+
+[type="password"] {
+    top: 245px;
+    left: 170px;
+
+}
+
+/*
+[type="confirm password"] {
+    top: 255px;
+    left: 170px;
+
+}*/
+
+input[type="text"][ id=t2] {
+    top: 145px;
+    left: 170px;
+
+}
+
+input[type="email"][ id=t3] {
+    top: 195px;
+    left: 170px;
+
+}
+
+
+
+#fn {
+    position: absolute;
+    top: 95px;
+    left: 20px;
+    cursor: pointer;
+
+}
+
+#ln {
+    position: absolute;
+    top: 145px;
+    left: 20px;
+    cursor: pointer;
+}
+
+#e {
+    position: absolute;
+    top: 195px;
+    left: 20px;
+    cursor: pointer;
+
+}
+
+#pass {
+    position: absolute;
+    top: 245px;
+    left: 20px;
+    cursor: pointer;
+    font: 30px bold 200px;
+
+}
+
+p {
+    position: absolute;
+    top: 276px;
+    left: 30px;
+    font-weight: 150px;
+    font-size: smaller;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.radio {
+    position: absolute;
+    top: 315px;
+    left: 50px;
+}
+
+/*to edit any thing in radio button text*/
+
+label[for="male"] {
+    font-size: 20px;
+}
+
+label[for="female"] {
+    font-size: 20px;
+}
+
+label[for="others"] {
+    font-size: 20px;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+#age {
+    position: absolute;
+    top: 335px;
+    left: 250px;
+
+}
+
+#number {
+    position: absolute;
+    top: 338px;
+    left: 430px;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+
+
+#country {
+    position: absolute;
+    top: 375px;
+    left: 250px;
+
+}
+
+select {
+    position: absolute;
+    top: 375px;
+    left: 407px;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+input[type="submit"] {
+    position: absolute;
+    top: 450px;
+    left: 190px;
+    width: 220px;
+    height: 40px;
+    background: rgb(152, 2, 152);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: rgb(152, 2, 152);
+    cursor: pointer;
+}
+
+a {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    translate: -50% 0;
+    color: #fff;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #fbd0d0;
+}
+a.home {
+    bottom: 20px;
+}
