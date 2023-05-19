@@ -1,0 +1,48 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home-content {
+    margin-top: 0;
+}
+#userData {
+    width: 90%;
+    margin: auto;
+}
+#userData figure {
+    width: 20%;
+    margin: 0 5%;
+}
+#userData figure img {
+    width: 100%;
+}
+#userData .name {
+    width: 100%;
+}
+#userData .name .happy {
+    width: 35px;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+#userData #data {
+    width: 100%;
+}
+#userData .trackResult a {
+    color: aqua;
+    text-decoration: underline;
+}
+#userData .trackResult a:hover, #userData .trackResult a:active {
+    color: #abffff;
+    text-decoration: underline;
+}
+#userData #links a {
+    background-color: #abffff;
+    flex: 1 0 auto;
+    border-radius: 30px;
+    padding: 0 10px;
+    margin: 0 20px 10px;
+}

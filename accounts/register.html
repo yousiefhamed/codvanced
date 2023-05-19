@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" href="width=device-width, initial-scale=1.0">
+    <title>Regestration</title>
+    <title>Login</title>
+    <link rel="shortcut icon" href="../images/fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="register.css">
+    <link rel="icon" type="image/x-icon" href="images/fav.ico">
+</head>
+
+<body>
+    
+    <div class="content">
+        <form id="registration">
+            <h2>Registration</h2>
+            <label id="fn">First Name</label><br>
+            <input type="text" id="firstName" required>
+            <label id="ln">Last Name</label><br>
+            <input type="text" id="lastName" required>
+            <label id="e">Email:</label>
+            <input type="email" id="email" required><br>
+            <label id="pass">Password</label>
+            <input type="password" minlength="6" required id="password"><br>
+            <!--<label id="pass">Confirm Password</label>
+            <input type="password" minlength="6" required><br>-->
+            <p>Password must contain at least 6 characters including lowercase characters, uppercase characters, and
+                numbers
+            </p>
+            <div class="radio">
+                <h3>your Gender:</h3>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="others" name="gender" value="others">
+                <label for="others">Others</label><br>
+            </div>
+            <label class="country">Country</label>
+            <select id="country" name="country" required>
+                <option value="Egypt" selected>Egypt</option>
+                <option value="United Arab Emirates">United Arab Emirates</option>
+                <option value="Lebanon">Lebanon</option>
+                <option value="Kuwait">Kuwait</option>
+                <option value="Qatar">Qatar</option>
+                <option value="France">France</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+            </select>
+
+            <button type="submit">Create Account</button>
+            <a href="login.html">already hava an acccout</a>
+            <a class="home" href="../index.html">return to home page</a>
+        </form>
+
+    </div>
+
+    <script src="register.js"></script>
+</body>
+
+</html>
